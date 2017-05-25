@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB01E0081ED6D12B008EB217 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB01E0071ED6D12B008EB217 /* images.jpeg */; };
 		AB901D841ED6B37300625D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB901D831ED6B37300625D5F /* AppDelegate.swift */; };
 		AB901D861ED6B37300625D5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB901D851ED6B37300625D5F /* ViewController.swift */; };
 		AB901D891ED6B37300625D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB901D871ED6B37300625D5F /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB01E0071ED6D12B008EB217 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpeg; path = ../../../Desktop/images.jpeg; sourceTree = "<group>"; };
 		AB901D801ED6B37300625D5F /* mySolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB901D831ED6B37300625D5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB901D851ED6B37300625D5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		AB901D821ED6B37300625D5F /* mySolution */ = {
 			isa = PBXGroup;
 			children = (
+				AB01E0071ED6D12B008EB217 /* images.jpeg */,
 				AB901D831ED6B37300625D5F /* AppDelegate.swift */,
 				AB901D851ED6B37300625D5F /* ViewController.swift */,
 				AB901D871ED6B37300625D5F /* Main.storyboard */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB901D8E1ED6B37300625D5F /* LaunchScreen.storyboard in Resources */,
+				AB01E0081ED6D12B008EB217 /* images.jpeg in Resources */,
 				AB901D8B1ED6B37300625D5F /* Assets.xcassets in Resources */,
 				AB901D891ED6B37300625D5F /* Main.storyboard in Resources */,
 			);
@@ -300,6 +304,7 @@
 				AB901D941ED6B37300625D5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
