@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D222AE11EDD4E570006C423 /* tianmao.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D222AE01EDD4E570006C423 /* tianmao.jpg */; };
 		3D5BBA3C1EDD04D2006D1C41 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5BBA3B1EDD04D2006D1C41 /* DetailViewController.swift */; };
-		3D9D5C371EDC2E8300A14DC7 /* pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D5C361EDC2E8300A14DC7 /* pic.jpg */; };
 		3D9D5C3B1EDC5E2600A14DC7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D5C3A1EDC5E2600A14DC7 /* LoginViewController.swift */; };
 		3D9D5C3D1EDC5E5000A14DC7 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D5C3C1EDC5E5000A14DC7 /* NetWorkManager.swift */; };
 		AB901D841ED6B37300625D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB901D831ED6B37300625D5F /* AppDelegate.swift */; };
@@ -19,8 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D222AE01EDD4E570006C423 /* tianmao.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tianmao.jpg; path = ../../../Downloads/tianmao.jpg; sourceTree = "<group>"; };
 		3D5BBA3B1EDD04D2006D1C41 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		3D9D5C361EDC2E8300A14DC7 /* pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic.jpg; path = ../../../Desktop/pic.jpg; sourceTree = "<group>"; };
 		3D9D5C3A1EDC5E2600A14DC7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3D9D5C3C1EDC5E5000A14DC7 /* NetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
 		AB901D801ED6B37300625D5F /* mySolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +62,7 @@
 		AB901D821ED6B37300625D5F /* mySolution */ = {
 			isa = PBXGroup;
 			children = (
-				3D9D5C361EDC2E8300A14DC7 /* pic.jpg */,
+				3D222AE01EDD4E570006C423 /* tianmao.jpg */,
 				AB901D831ED6B37300625D5F /* AppDelegate.swift */,
 				AB901D851ED6B37300625D5F /* ViewController.swift */,
 				AB901D871ED6B37300625D5F /* Main.storyboard */,
@@ -139,7 +139,7 @@
 				AB901D8E1ED6B37300625D5F /* LaunchScreen.storyboard in Resources */,
 				AB901D8B1ED6B37300625D5F /* Assets.xcassets in Resources */,
 				AB901D891ED6B37300625D5F /* Main.storyboard in Resources */,
-				3D9D5C371EDC2E8300A14DC7 /* pic.jpg in Resources */,
+				3D222AE11EDD4E570006C423 /* tianmao.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

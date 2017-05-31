@@ -28,7 +28,7 @@ extension ViewController{
     ///初始化UI
     func setUpUI() {
         //2设置tableView的frame
-        tableView.frame = view.bounds
+        tableView.frame = self.view.bounds
         //3.添加到控制器view
         view.addSubview(tableView)
         //4设置数据源
@@ -64,6 +64,20 @@ extension ViewController :UITableViewDataSource,UITableViewDelegate{
         return self.adsList.count;
     }
     
+    /**
+     row的高度 方法
+     */
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 60
+    }
+
+    /**
+     section 数量 方法
+     */
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //1创建cell
         let identifier : String = "identifier"
@@ -75,7 +89,7 @@ extension ViewController :UITableViewDataSource,UITableViewDelegate{
         //2设置数据
         
         cell?.textLabel?.text = adsList[indexPath.row]["adverName"] as? String
-        cell?.imageView?.image = UIImage(named: "pic.jpg")
+        cell?.imageView?.image = UIImage(named: "tianmao.jpg")
         //3返回cell
         
         return cell!//在这个地方返回的cell一定不为nil，可以强制解包
